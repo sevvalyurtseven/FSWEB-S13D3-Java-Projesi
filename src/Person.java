@@ -29,6 +29,38 @@ public class Person {
         this.isMarried = isMarried;
         this.hobbies = hobbies;
     }
+
+    //getFirstName'in herhangi bir parametre almasina gerek
+    // yok cünkü zaten class'in firstName'ini döndüreceğim.
+    public String getFirstName(){
+        return this.firstName;
+    }
+
+    public String getLastName(){
+        return this.lastName;
+    }
+
+    public  int getAge(){
+        return this.age;
+    }
+
+    public double getSalary(){
+        return salary;
+    }
+
+    public boolean isMarried(){
+        return isMarried;
+    }
+
+    public String[] getHobbies(){
+        return hobbies;
+    }
+
+
+    public boolean isTeen(){
+        return this.age > 13 && this.age < 19;
+    }
+
 }
 
 
