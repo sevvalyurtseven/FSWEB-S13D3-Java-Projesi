@@ -1,7 +1,10 @@
 public class Wall {
     //INSTANCE VARIABLE:
-    double width;
-    double height;
+    //private sayesinde bu width ve height degerlerine
+    // benim dısımda kimse erisemez. (ENCAPSULATION). Yani baska bir class'da
+    // direkt olarak width degerine erismemi engelliyor.
+     private double width;
+     private double height;
 
 
     //CONSTRUCTOR:
@@ -35,3 +38,7 @@ public class Wall {
         return this.height * this.width;
     }
 }
+
+//NOT: Statik bir methodu statik olmayan bir methodun içerisinde çağırabilirim.
+// Ama statik olan bir methodun içerisinde herhangi bir statik olmayan bisey
+// cagiramam! this keyword'ünü de statik bir method içerisinde kullanamam!

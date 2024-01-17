@@ -16,5 +16,15 @@ public class Main {
         System.out.println("Salary: " + person2.getSalary());
         System.out.println("Hobbies: " + Arrays.toString(person3.getHobbies()));
         System.out.println("FirstName: " + person3.getFirstName());
+
+        Wall wall = new Wall(5, 4);
+
+        System.out.println("Area:" + wall.getArea());
+        wall.setHeight(-1.5);
+        wall.setWidth(-1);
+        System.out.println("Width:" + wall.getWidth());
+        System.out.println("Height:" + wall.getHeight());
+        System.out.println("Area:" + wall.getArea());
+
     }
 }
