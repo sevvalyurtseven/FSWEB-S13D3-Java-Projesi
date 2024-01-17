@@ -16,7 +16,8 @@ public class Person {
     }
 
     //OVERLOADING:
-    public Person(String firstName, String lastName, int age, double salary, boolean isMarried, String[] hobbies){
+    public Person(String firstName, String lastName, int age,
+                  double salary, boolean isMarried, String[] hobbies){
         this(firstName, lastName, age); //constructor chaining
 
        //eklediğim özellikler ile ilgili custom bir işlem yapalim:
