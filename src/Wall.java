@@ -10,8 +10,8 @@ public class Wall {
     //CONSTRUCTOR:
 
     public Wall(double width, double height){
-        this.height = height;
-        this.width = width;
+        this.height = height < 0 ? 0 : height;
+        this.width = width < 0 ? 0 : width;
     }
 
     //WALL SINIFI ICIN METHODLARIMIZ
